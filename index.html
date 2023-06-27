@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+</head>
+
+<body data-active-section="section-intro">
+  <header>
+
+  </header>
+  <main id="main">
+    <section data-section="section-intro" class="section section--intro">
+      <div class="section--intro-content">
+        <button data-item="intro-sound-enable" class="button interactive">Войти со звуком</button>
+        <button data-item="intro-sound-disable" class="button button--intro interactive">Войти без звука</button>
+      </div>
+    </section>
+    <section class="section" data-section="section-preview">
+      <button class="button interactive">Test1</button>
+    </section>
+    <section class="section" data-section="section-2">
+      <button class="button interactive">Test2</button>
+    </section>
+    <section class="section" data-section="section-3">
+      <button class="button interactive">Test3</button>
+    </section>
+    <section class="section" data-section="section-4">
+      <button class="button interactive">Test4</button>
+    </section>
+  </main>
+  <footer></footer>
+  <div id="custom-cursor" class="custom-cursor">
+    <span class="custom-cursor--circle"></span>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
